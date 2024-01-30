@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/61673d36fe.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+<body class="mx-5 md:mx-20 overflow-x-hidden">
+
+    <header>
+        <nav class="bg-white border-gray-200 dark:bg-gray-900">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+              <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                  <img src="Images/Group 40071 (2).png" class="h-12" alt="Flowbite Logo" />
+                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"><h1 class="text-5xl font-extrabold">Hero <span class="text-orange-600">Travel</span></h1></span>
+              </a>
+              <button id="toggle" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                  <span class="sr-only">Open main menu</span>
+                  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                  </svg>
+              </button>
+              <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                  <li>
+                    <a href="#" class="text-2xl block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-2xl block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Packages</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-2xl block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Testimonial</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-2xl block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-2xl block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            
+        </nav>
+
+        <div class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat py-16  text-center" style="background-image: url('Images/Group\ 13\ \(1\)\ \(1\).png'); height: 600px;">
+            <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed" style="background-color: rgba(0, 0, 0, 0.6)">
+
+                <!-- small device manu bar -->
+                <div id="manubar" class="flex justify-end bg-gray-400 w-48 hidden">
+                  <ul class="">
+                        <li class="">
+                          <a href="#" class="text-start text-2xl block py-2 px-3 rounded md:bg-transparent text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+                        </li>
+                        <li class="">
+                          <a href="#" class="text-start text-2xl block py-2 px-3 rounded md:bg-transparent text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Packages</a>
+                        </li>
+                        <li class="">
+                          <a href="#" class="text-start text-2xl block py-2 px-3 rounded md:bg-transparent text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Testimonial</a>
+                        </li>
+                        <li class="">
+                          <a href="#" class="text-start text-2xl block py-2 px-3 rounded md:bg-transparent text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Blog</a>
+                        </li>
+                        <li class="">
+                          <a href="#" class="text-start text-2xl block py-2 px-3 rounded md:bg-transparent text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Contract</a>
+                        </li>
+                      
+                  </ul>
+                  <button id="manu-cross" class=" text-white  flex px-4 h-12 items-center text-center rounded-3xl">&#10060; </button>
+
+                </div>
+
+                <div class="flex h-full items-center justify-center">
+                    <div class="text-white">
+                        <h2 class="mb-4 text-5xl font-semibold">Explore Your Travel</h2>
+                        <p class="text-lg">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+                        
+                        <!--select your destination form -->
+                        <div class="flex flex-col md:flex-row gap-5 w-5/6 justify-center items-center mt-5 bg-gray-300 bg-opacity-25 rounded-lg py-3 px-10">
+                            
+                          <input class="py-4 rounded-xl border border-white " type="text" value="" placeholder="where go">
+                            
+                           <div class="flex flex-row gap-10">
+                              <select id="countries" class="w-36 py-4 text-center  bg-gray-50 border border-gray-300 text-gray-900 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                <option selected>When</option>
+                                <option value="SUM">Summer</option>
+                                <option value="WIN">Winter</option>
+                                <option value="SP">Spring</option>
+                                <option value="AUT">Autumn</option>
+                                <option value="FALL">Fall</option>
+                              </select>
+
+                              <select id="countries" class="w-36 py-4 bg-gray-50 border border-gray-300 text-gray-900 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                <option selected>Select Type</option>
+                                <option value="DE">Short Tour</option>
+                                <option value="LG">Long Tour</option>
+                                <option value="FR">3 Days</option>
+                                <option value="CA">5 Days</option>
+                                <option value="US">7 Days</option>
+                              </select>
+                           </div>
+                            
+
+                            <!-- <input  class="py-4 rounded-xl" type="text" value=""> -->
+                            <button type="button" class="px-10 py-4 rounded bg-orange-600 border border-orange-600 text-lg md:text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+                            data-te-ripple-init data-te-ripple-color="light">Find Now</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="grid grid-cols-1 md:grid-cols-2  justify-center py-16 text-justify text-gray-800">
+
+            <div class="text-xl pl-28 md:order-2">
+                <h1 class="text-5xl font-extrabold mb-10">Our Popular Tours</h1>
+                <p class="mb-3">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit
+                  massa. Sodales dictumst nec nibh pellentesque.</p>
+                <ul class="list-disc">
+                    <li class="py-2">Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+                    <li class="py-2">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+                    <li class="py-2">Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+                </ul>
+                <p class="mt-3">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt.</p>
+
+                <button class="mt-10 bg-orange-600 px-6 py-3 rounded-lg text-white text-2xl" type="button">Read More</button>
+            </div>
+  
+            <div class="flex justify-center md:order-1">
+                <img class="w-3/4" src="Images/Rectangle 4.png" alt="" srcset="">
+            </div>
+        </div>
+        
+      </section>
+
+
+      <!-- Choose Your Destination -->
+      <article class="mt-10 w-screen">
+        <div class="flex flex-col items-center text-center">
+          <h2 class="text-6xl font-extrabold">Choose Your Destination</h2>
+          <p class="text-2xl w-1/2 text-gray-700 mt-5">The best destination for your tour depends on your individual interests and preferences.</p>
+        </div>
+
+        <div class="mt-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 ">
+              <div class="flex items-center justify-center bg-no-repeat h-80" style="background-image: url('Images/Rectangle\ 5.png');">
+                <h2 class="text-5xl text-white">Maldeep</h2>
+              </div>
+              <div class="flex items-center justify-center bg-no-repeat h-80" style="background-image: url('Images/Rectangle\ 8.png');">
+                <h2 class="text-5xl text-white">Indonesia</h2>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 my-5">
+              <div  class="flex items-center justify-center bg-no-repeat h-80 w-96" style="background-image: url('Images/Rectangle\ 6.png');">
+                <h2 class="text-5xl text-white">Srilanka</h2>
+              </div>
+              <div  class=" flex items-center justify-center bg-no-repeat h-80 w-96" style="background-image: url('Images/Rectangle\ 7.png');">
+                <h2 class="text-5xl text-white">North America</h2>
+              </div>
+              <div  class="flex items-center justify-center bg-no-repeat h-72 w-96" style="background-image: url('Images/Rectangle\ 9.png');">
+                <h2 class="text-5xl text-white">Kashmir</h2>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-5 my-5">
+              <div class="col-span-1 md:col-span-2 flex items-center justify-center bg-no-repeat h-80" style="background-image: url('Images/Rectangle\ 11.png');">
+                <h2 class="text-5xl text-white">Bangladesh</h2>
+              </div>
+              <div class="col-span-1 md:col-span-3 w-3/4 flex items-center justify-center bg-no-repeat h-80" style="background-image: url('Images/Rectangle\ 10.png');">
+                <h2 class="text-5xl text-white">Bandarban</h2>
+              </div>
+            </div>
+        </div>
+
+      </article>
+
+      <section>
+        
+      </section>
+    </main>
+
+
+    <script src="js/travel.js"></script>
+</body>
+</html>
